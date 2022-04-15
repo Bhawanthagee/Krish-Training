@@ -1,0 +1,35 @@
+server:
+  port: 8191
+  servlet:
+    context-path: /config
+
+spring:
+  profile:
+    active: native
+
+
+
+cloud:
+  config:
+    server:
+      git:
+        uri: https://github.com/Bhawanthagee/spring-cloud-config-store
+    git:
+        search-paths:
+          - '*service'
+        default-label: master
+
+application:
+  name: membership
+
+
+
+
+
+
+
+
+
+
+
+
