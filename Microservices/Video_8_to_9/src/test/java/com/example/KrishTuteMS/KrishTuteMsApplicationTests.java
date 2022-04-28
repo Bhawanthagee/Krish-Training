@@ -1,10 +1,10 @@
-package com.example.springdatabaseconnection;
+package com.example.KrishTuteMS;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SpringDatabaseConnectionApplicationTests {
+class KrishTuteMsApplicationTests {
 
 	@Test
 	void contextLoads() {
